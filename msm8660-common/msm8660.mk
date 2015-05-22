@@ -69,7 +69,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # MSM8660 RIL Class
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.ril_class=SamsungMSM8660RIL
+    ro.telephony.ril_class=SamsungQualcommRIL
 
 # Ramdisk
 PRODUCT_PACKAGES += \
