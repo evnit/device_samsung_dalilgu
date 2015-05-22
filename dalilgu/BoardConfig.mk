@@ -37,7 +37,7 @@ TARGET_OTA_ASSERT_DEVICE := SHV-E120L,dalilgu,dali
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom kgsl.mmutype=gpummu usb_id_pin_rework=true no_console_suspend=true zcache msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x40400000
-TARGET_KERNEL_CONFIG := cyanogenmod_e120l_lollipop_defconfig
+TARGET_KERNEL_CONFIG := dalilgu
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01400000
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8660-common
