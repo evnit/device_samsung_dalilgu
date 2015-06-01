@@ -78,6 +78,7 @@ PRODUCT_PACKAGES += \
     init.qcom.mdm_links.sh \
     init.qcom.modem_links.sh \
     init.qcom.rc \
+    init.qcom.ril.sh \
     init.qcom.power.rc \
     init.qcom.syspart_fixup.sh \
     lpm.rc \
